@@ -15,4 +15,8 @@ export class AppComponent {
   ngOnInit(){
 
   }
+
+  onFormSubmit(event) {
+    console.log(event);
+  }
 }
